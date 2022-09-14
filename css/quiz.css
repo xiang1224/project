@@ -129,7 +129,7 @@ a {
     border-radius: 10px;
 }
 .col-sm-9{
-    background: url(/images/black.png);
+    background: url(../images/black.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
