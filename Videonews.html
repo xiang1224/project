@@ -17,7 +17,6 @@
       />
     <!-- 連結導覽列CSS -->
     <!-- 連結內容CSS -->
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/news.css">
 </head>
 
@@ -83,38 +82,28 @@
                 </div>
             </div>
             <!-- 中間欄位 -->
-            <div class="col-sm-9 main-content text-left">
+            <div class="col-sm-10 main-content text-left">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card" style="width: 15rem;">
-                            <img src="https://picsum.photos/300/200?random=1" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 15rem;">
-                            <img src="https://picsum.photos/300/200?random=2" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 15rem;">
-                            <img src="https://picsum.photos/300/200?random=3" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
+                    <section class="news-container">
+                        <div class="news-card">
+                            <div class="news-card-image news-1"></div>
+                            <h2>培育AI醫療影像辨識關鍵人才</h2>
+                            <p>近年來，AI人工智慧技術在各領域應用均呈現爆炸性成長，而在醫學領域發展最快的，即為醫療影像的自動辨識....</p>
+                            <a href="https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&SiteID=1&MmmID=1036276263153520257&MGID=110022215181329731" target="_blank">READ MORE</a>
+                        </div>
+                        <div class="news-card">
+                            <div class="news-card-image news-2"></div>
+                            <h2>影像辨識很省工！害蟲、魚種、花卉AI搞定</h2>
+                            <p>不管是害蟲判定、魚種辨識、花卉品種鑑定都需耗費大量時間、人力，各單位紛紛推出影像辨識系統，期望能提高工作效率....</p>
+                            <a href="https://www.agriharvest.tw/archives/16039" target="_blank">READ MORE</a>
+                        </div>
+                        <div class="news-card">
+                            <div class="news-card-image news-3"></div>
+                            <h2>UAV空拍+AI影像辨識<br>協助地方守護路口安全</h2>
+                            <p>近年來無人機(UAV)空拍攝影及人工智慧(AI)影像辨識技術快速發展，交通部運輸研究所與訊力科技公司合作結合兩者技術....</p>
+                            <a href="https://www.iot.gov.tw/cp-24-206265-2e8d6-1.html" target="_blank">READ MORE</a>
+                        </div>
+                   </section>
                     
                     
                     
@@ -122,9 +111,7 @@
                   
             </div>
             <!-- 右邊欄位 -->
-            <div class="col-sm-1 sidenav">
-                
-            </div>
+            
 
         </div>
 
@@ -136,7 +123,7 @@
 
     <!-- 第三層 footer -->
     <footer class="container-fluid text-center" id="under">
-        <p>AEUST-MIS設計&copy;
+        <p>AEUST-MIS設計&copy; <br>Image by <a href="https://www.freepik.com/free-vector/organic-flat-doctors-nurses-illustration_13233881.htm#page=2&query=doctor&position=37&from_view=search">Freepik</a>
         </p>
     </footer>
 

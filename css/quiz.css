@@ -1,5 +1,5 @@
 .content {
-    height: 510px;
+    height: 850px;
     border: none;
 }
 
@@ -113,6 +113,7 @@ a {
 }
 
 .main-content {
+    height: 750px;
     background-color: #f0f0f0;
     padding: 40px;
 }
@@ -235,7 +236,16 @@ button:active{
     margin-top: 1rem;
 }
 
-@media (max-width:1280px) {
+@media (max-width:1400px) {
+    .content {
+        height: 510px;
+        border: none;
+    }
+    .main-content {
+        height: 500px;
+        background-color: #f0f0f0;
+        padding: 40px;
+    }
     .next{
         position: absolute;
         left: 1000px;
