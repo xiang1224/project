@@ -189,7 +189,28 @@ footer {
         .main-content {
             height: 550px;
         }
+        .news-container{
+            padding-top: 20px;
+            padding-bottom: 0px;
+            padding-left: 65px;
+            padding-right: 65px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .news-card{
+            background-color: white;
+            width: 270px;
+            height: 450px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+       
         
+        
+        p{
+            margin-bottom: 0px;
+        }
     }
     @media (max-width:576px) {
         .main-content {
@@ -213,7 +234,7 @@ footer {
         }
         .content {
             width: 100%;
-            height: 1910px;
+            height: 1820px;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: auto;
@@ -240,7 +261,10 @@ footer {
             padding-bottom: 20px;
         }
         .news-container{
-            padding-top: 10px;
+            padding-top: 0px;
+            padding-left: 135px;
+            padding-right: 135px;
+            padding-bottom: 0px;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
