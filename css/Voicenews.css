@@ -149,13 +149,13 @@ footer {
     border-radius: 15px 15px 0 0;
 }
 .news-1{
-    background-image: url(../images/Doctor.jpg);
+    background-image: url(../images/report.jpg);
 }
 .news-2{
-    background-image: url(../images/farm.jpg);
+    background-image: url(../images/Doctor.jpg);
 }
 .news-3{
-    background-image: url(../images/traffic.jpg);
+    background-image: url(../images/mask.jpg);
 }
 .news-card h2{
     padding-right: 10px;
