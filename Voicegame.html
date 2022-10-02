@@ -18,6 +18,9 @@
     <!-- 連結內容CSS -->
     <link rel="stylesheet" href="css/Voicegame.css">
     <style>
+        #colorful{
+            text-align: center;
+        }
         p{
             text-align: center;
         }
@@ -86,17 +89,11 @@
             </div>
         </div>
         <!-- 中間欄位 -->
-        <div class="col-sm-10 main-content text-left">
-            <table class="voicegame">
-                <tr>
-                  <th style="height: 20%;"><h1>顏色詞彙辨識</h1><br><p>點一下麥克風，並用「英文」說出想改變的顏色</p></th>
-                  
-                </tr>
-                <tr>
-                  <td style="height: 80%;"><iframe src="/voicerecognition/voicerecognition.html" frameborder="0" scrolling="no"></iframe></td>
-                </tr>
-              </table>
-              
+        <div class="col-sm-10 main-content text-left" id="colorful">
+            <h1>顏色詞彙辨識</h1>
+            <p>點一下麥克風，並用「英文」說出想改變的顏色</p>
+            <img src="images/mic.png" width="20%" id='mic'>
+            <script src="js/app.js"></script>
             
         </div>
         <!-- 右邊欄位 -->
